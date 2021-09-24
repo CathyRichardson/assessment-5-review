@@ -1,0 +1,41 @@
+.dash {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.dash-filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.dash-search-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 55%;
+}
+
+.dash-search-bar {
+  height: 25px;
+  width: 65%;
+}
+
+.dash-check-box {
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dash-post-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.dash-post-box > h3 {
+  font-size: 30px;
+}

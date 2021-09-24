@@ -1,0 +1,35 @@
+.post {
+  width: 70%;
+  min-height: 400px;
+  margin: 0 auto;
+}
+
+.post-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-content-box {
+  margin: 10px 0 0;
+}
+
+.post-img {
+  border-radius: 2px;
+  height: 300px;
+  max-width: 75%;
+  background-position: center;
+  background-size: cover;
+  margin: 0 10px 0 0;
+  float: left;
+  background-color: white;
+}
+
+.post-content-box > p {
+  word-wrap: break-word;
+  text-indent: 25px;
+  line-height: 30px;
+}
+
+.oops-box {
+  padding: 50px;
+}

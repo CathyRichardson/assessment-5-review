@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+.App {
+  padding: 20px 20px 20px 100px;
+  font-family: 'Open Sans', 'Courier New', Courier, monospace;
+  background-color: #f2f2f2;
+  min-width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.dark-button {
+  border-radius: 1px;
+  background-image: radial-gradient(circle at 50% -46%, #737373, #403d39);
+  padding: 10px 20px;
+  color: white;
+  border: none;
+}
+
+.content-box {
+  border-radius: 2px;
+  background-color: white;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ff9770;
+  margin: 0 0 10px;
+}
+
+.author-box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 30%;
+}
+
+.author-box > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  margin: 0 5px;
+}
+
+@keyframes rotating {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.load-box {
+  margin: 100px auto;
+  width: 200px;
+  position: relative;
+  animation: rotating .75s linear infinite;
+}
+.load-background {
+  border-radius:50%;
+  border: 10px solid #ff70a6;
+  border: 10px solid #ffd670;
+  width: 200px;
+  height: 200px;
+}
+.load {
+  border-radius:50%;
+  border-left: 10px solid #ffd670;
+  border-top: 10px solid #ffd670;
+  border-left: 10px solid #ff70a6;
+  border-top: 10px solid #ff70a6;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 400px){
+  .app-form {
+    padding-top: 0px;
+  }
+}
